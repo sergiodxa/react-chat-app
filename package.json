@@ -1,0 +1,41 @@
+{
+  "name": "react-chat-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/core": "^10.0.10",
+    "date-fns": "^1.30.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-icons": "^3.7.0",
+    "react-scripts": "3.0.1",
+    "serve-handler": "^6.0.1",
+    "ws": "^7.0.0"
+  },
+  "scripts": {
+    "start:wss": "PORT=4000 node server.js",
+    "start:cra": "react-scripts start",
+    "start": "concurrently 'yarn start:wss' 'yarn start:cra'",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.0"
+  }
+}
