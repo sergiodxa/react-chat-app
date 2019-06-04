@@ -1,6 +1,6 @@
 import format from "date-fns/format";
 
-function groupBy(messages) {
+function group(messages) {
   return messages.reduce((groups, message) => {
     const date = new Date(message.date);
     const group = format(date, "dddd, MMMM Do");
@@ -11,4 +11,4 @@ function groupBy(messages) {
   }, {});
 }
 
-export default groupBy;
+export default group;
