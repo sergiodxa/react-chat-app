@@ -2,7 +2,7 @@
 import { jsx } from "@emotion/core";
 import format from "date-fns/format";
 
-function Message({ username, date, content, now, isActive = true }) {
+function Message({ username, date, content, now }) {
   return (
     <article
       css={{
@@ -14,9 +14,9 @@ function Message({ username, date, content, now, isActive = true }) {
     >
       <div>
         <strong css={{ fontSize: "1.1rem" }}>{username}</strong>{" "}
-        <em css={{ fontSize: ".75rem", fontStyle: "normal", color: "#666" }}>
+        <time css={{ fontSize: ".75rem", fontStyle: "normal", color: "#666" }}>
           {format(date, "HH:mm:ss")}
-        </em>
+        </time>
       </div>
       <p css={{ margin: ".5rem 0 0" }}>{content}</p>
     </article>
