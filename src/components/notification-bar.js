@@ -29,6 +29,7 @@ function NotificationBar() {
       }}
     >
       <button
+        aria-label="Give your authorization to to receive notifications on your computer"
         css={{
           background: "none",
           color: "white",
