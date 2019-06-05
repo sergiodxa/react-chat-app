@@ -17,10 +17,9 @@ function MessageGroup({ messages, now }) {
     if (!$lastGroup) return;
     const $lastMessage = $lastGroup.lastChild;
     if (!$lastMessage) return;
-    $messages.current.parentElement.scrollTo(
-      0,
-      $lastMessage.getBoundingClientRect().y
-    );
+    $lastMessage.scrollIntoView({
+      behavior: "smooth"
+    });
   }, [messages.length]);
 
   return (
