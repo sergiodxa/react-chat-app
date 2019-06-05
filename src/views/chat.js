@@ -111,14 +111,6 @@ function ChatView({ username, url, now }) {
     return () => window.removeEventListener("visibilitychange", handler);
   }, [setIsPageVisible]);
 
-  // React.useEffect(() => {
-  //   if (isConnected) return;
-  //   notify(
-  //     "Connection closed",
-  //     "It looks you got disconnected, we will retry connecting you."
-  //   );
-  // }, [isConnected]);
-
   function handleChannelChange(name) {
     setCurrentChannel(name);
   }
