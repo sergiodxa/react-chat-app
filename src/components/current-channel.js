@@ -12,9 +12,7 @@ function CurrentChannel({ channel }) {
         alignItems: "center"
       }}
     >
-      <strong css={{ fontSize: "1.2rem", fontWeight: 500 }}>
-        # {channel}
-      </strong>
+      <strong css={{ fontSize: "1.2rem", fontWeight: 500 }}># {channel}</strong>
     </div>
   );
 }

@@ -61,7 +61,7 @@ function CreateChannel({ channels, onCreate }) {
             left: 0,
             right: 0,
             bottom: 0,
-            zIndex: 100,
+            zIndex: 100
           }}
         >
           <div
@@ -76,7 +76,7 @@ function CreateChannel({ channels, onCreate }) {
               padding: "2rem 1rem",
               width: "80%",
               maxWidth: 360,
-              zIndex: 110,
+              zIndex: 110
             }}
           >
             <button

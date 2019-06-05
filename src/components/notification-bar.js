@@ -16,8 +16,7 @@ function NotificationBar() {
   }
 
   function handleMainClick() {
-    Notification.requestPermission()
-      .then(setPermissions);
+    Notification.requestPermission().then(setPermissions);
   }
 
   return (
