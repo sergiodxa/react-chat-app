@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Channel component active 1`] = `
+<DocumentFragment>
+  .emotion-1 {
+  background-color: #783CEE;
+}
+
+.emotion-0 {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: .5rem;
+  outline: none;
+  text-align: left;
+  width: 100%;
+}
+
+<div
+    class="emotion-1"
+  >
+    <button
+      aria-label="Change to channel general"
+      class="emotion-0"
+    >
+      # general
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Channel component non- active 1`] = `
+<DocumentFragment>
+  .emotion-1 {
+  background-color: none;
+}
+
+.emotion-0 {
+  background: none;
+  border: none;
+  color: black;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: .5rem;
+  outline: none;
+  text-align: left;
+  width: 100%;
+}
+
+<div
+    class="emotion-1"
+  >
+    <button
+      aria-label="Change to channel general"
+      class="emotion-0"
+    >
+      # general
+    </button>
+  </div>
+</DocumentFragment>
+`;

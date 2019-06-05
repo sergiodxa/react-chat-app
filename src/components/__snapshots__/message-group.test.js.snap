@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MessageGroup 1`] = `
+<DocumentFragment>
+  .emotion-2 {
+  position: relative;
+  margin: 2rem 0;
+}
+
+.emotion-0 {
+  background: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin: 0 auto;
+  font-size: 1rem;
+  font-weight: normal;
+  text-align: center;
+  width: 20%;
+}
+
+.emotion-1 {
+  border: 0;
+  border-top: 1px solid #ccc;
+}
+
+.emotion-6 {
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.emotion-6:last-child {
+  border-bottom: none;
+}
+
+.emotion-3 {
+  font-size: 1.1rem;
+}
+
+.emotion-4 {
+  font-size: .75rem;
+  font-style: normal;
+  color: #666;
+}
+
+.emotion-5 {
+  margin: .5rem 0 0;
+}
+
+<section>
+    <header
+      class="emotion-2"
+    >
+      <h3
+        class="emotion-0"
+      >
+        Saturday, June 1st
+      </h3>
+      <hr
+        class="emotion-1"
+      />
+    </header>
+    <section>
+      <article
+        class="emotion-6"
+      >
+        <div>
+          <strong
+            class="emotion-3"
+          >
+            sergiodxa
+          </strong>
+           
+          <time
+            class="emotion-4"
+          >
+            19:45:43
+          </time>
+        </div>
+        <p
+          class="emotion-5"
+        >
+          hola
+        </p>
+      </article>
+    </section>
+    <header
+      class="emotion-2"
+    >
+      <h3
+        class="emotion-0"
+      >
+        Friday, May 31st
+      </h3>
+      <hr
+        class="emotion-1"
+      />
+    </header>
+    <section>
+      <article
+        class="emotion-6"
+      >
+        <div>
+          <strong
+            class="emotion-3"
+          >
+            sergiodxa
+          </strong>
+           
+          <time
+            class="emotion-4"
+          >
+            19:45:43
+          </time>
+        </div>
+        <p
+          class="emotion-5"
+        >
+          hola, que tal?
+        </p>
+      </article>
+    </section>
+    <header
+      class="emotion-2"
+    >
+      <h3
+        class="emotion-0"
+      >
+        Thursday, May 2nd
+      </h3>
+      <hr
+        class="emotion-1"
+      />
+    </header>
+    <section>
+      <article
+        class="emotion-6"
+      >
+        <div>
+          <strong
+            class="emotion-3"
+          >
+            sergiodxa
+          </strong>
+           
+          <time
+            class="emotion-4"
+          >
+            19:45:43
+          </time>
+        </div>
+        <p
+          class="emotion-5"
+        >
+          hola, que tal?
+        </p>
+      </article>
+    </section>
+  </section>
+</DocumentFragment>
+`;

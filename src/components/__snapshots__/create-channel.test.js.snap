@@ -1,0 +1,279 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreateChannel UI 1`] = `
+<DocumentFragment>
+  .emotion-0 {
+  background: none;
+  border: none;
+  color: black;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1rem;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  outline: none;
+  padding: 1rem .5rem;
+  width: 100%;
+}
+
+<button
+    aria-label="Open create channel dialog"
+    class="emotion-0"
+    type="button"
+  >
+    Create Channel 
+    <svg
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      stroke-width="0"
+      viewBox="0 0 448 512"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"
+      />
+    </svg>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`CreateChannel UI 2`] = `
+<DocumentFragment>
+  .emotion-0 {
+  background: none;
+  border: none;
+  color: black;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1rem;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  outline: none;
+  padding: 1rem .5rem;
+  width: 100%;
+}
+
+<button
+    aria-label="Open create channel dialog"
+    class="emotion-0"
+    type="button"
+  >
+    Create Channel 
+    <svg
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      stroke-width="0"
+      viewBox="0 0 448 512"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"
+      />
+    </svg>
+  </button>
+  .emotion-6 {
+  background-color: rgba(0,0,0,.5);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+}
+
+.emotion-5 {
+  background: white;
+  border: none;
+  border-radius: .25rem;
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding: 2rem 1rem;
+  width: 80%;
+  max-width: 360px;
+  z-index: 110;
+}
+
+.emotion-0 {
+  position: absolute;
+  right: 1rem;
+  top: 2rem;
+  padding: .5rem;
+  font-size: 1rem;
+  background: none;
+  border: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+}
+
+.emotion-1 {
+  margin: 0;
+  font-weight: 500;
+  text-align: center;
+}
+
+.emotion-3 {
+  margin: 2.5rem 1rem;
+}
+
+.emotion-2 {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: .5rem 1rem;
+  font-size: 1.2rem;
+  box-sizing: border-box;
+  width: 100%;
+  outline: none;
+  -webkit-transition: border-bottom-color 300ms ease;
+  transition: border-bottom-color 300ms ease;
+}
+
+.emotion-2:focus {
+  border-bottom-color: #7E00F3;
+}
+
+.emotion-4 {
+  background-color: #7E00F3;
+  border-radius: .5rem;
+  color: white;
+  width: 100%;
+  padding: .75rem .5rem;
+  box-sizing: border-box;
+  font-size: .9rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  outline: none;
+}
+
+<div
+    class="emotion-6"
+  >
+    <div
+      class="emotion-5"
+      role="dialog"
+    >
+      <button
+        aria-label="Close create channel dialog"
+        class="emotion-0"
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 352 512"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+          />
+        </svg>
+      </button>
+      <h3
+        class="emotion-1"
+      >
+        Create new channel
+      </h3>
+      <form>
+        <div
+          class="emotion-3"
+        >
+          <input
+            aria-label="Channel name"
+            class="emotion-2"
+            id="new-channel-name"
+            name="channelName"
+            placeholder="general"
+            type="text"
+            value=""
+          />
+        </div>
+        <button
+          class="emotion-4"
+          type="submit"
+        >
+          Create channel
+        </button>
+      </form>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`CreateChannel UI 3`] = `
+<DocumentFragment>
+  .emotion-0 {
+  background: none;
+  border: none;
+  color: black;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1rem;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  outline: none;
+  padding: 1rem .5rem;
+  width: 100%;
+}
+
+<button
+    aria-label="Open create channel dialog"
+    class="emotion-0"
+    type="button"
+  >
+    Create Channel 
+    <svg
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      stroke-width="0"
+      viewBox="0 0 448 512"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"
+      />
+    </svg>
+  </button>
+</DocumentFragment>
+`;

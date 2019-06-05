@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CurrentUser component 1`] = `
+<DocumentFragment>
+  .emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem .5rem;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-0 {
+  background-color: #DCDCDC;
+  border-radius: .25rem;
+  height: 2rem;
+  margin: 0;
+  margin-right: .25rem;
+  padding: 0;
+  width: 2rem;
+}
+
+.emotion-1 {
+  font-weight: 500;
+}
+
+<div
+    class="emotion-2"
+  >
+    <figure
+      class="emotion-0"
+    />
+    <strong
+      class="emotion-1"
+    >
+      test-user
+    </strong>
+  </div>
+</DocumentFragment>
+`;

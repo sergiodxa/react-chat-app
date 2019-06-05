@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChannelList component 1`] = `
+<DocumentFragment>
+  .emotion-3 {
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.emotion-3:last-child {
+  border-bottom: none;
+}
+
+.emotion-0 {
+  font-size: 1.1rem;
+}
+
+.emotion-1 {
+  font-size: .75rem;
+  font-style: normal;
+  color: #666;
+}
+
+.emotion-2 {
+  margin: .5rem 0 0;
+}
+
+<section>
+    <article
+      class="emotion-3"
+    >
+      <div>
+        <strong
+          class="emotion-0"
+        >
+          sergiodxa
+        </strong>
+         
+        <time
+          class="emotion-1"
+        >
+          19:45:43
+        </time>
+      </div>
+      <p
+        class="emotion-2"
+      >
+        hola
+      </p>
+    </article>
+    <article
+      class="emotion-3"
+    >
+      <div>
+        <strong
+          class="emotion-0"
+        >
+          sergiodxa
+        </strong>
+         
+        <time
+          class="emotion-1"
+        >
+          19:45:43
+        </time>
+      </div>
+      <p
+        class="emotion-2"
+      >
+        hola, que tal?
+      </p>
+    </article>
+    <article
+      class="emotion-3"
+    >
+      <div>
+        <strong
+          class="emotion-0"
+        >
+          sergiodxa
+        </strong>
+         
+        <time
+          class="emotion-1"
+        >
+          19:45:43
+        </time>
+      </div>
+      <p
+        class="emotion-2"
+      >
+        hola, que tal?
+      </p>
+    </article>
+  </section>
+</DocumentFragment>
+`;

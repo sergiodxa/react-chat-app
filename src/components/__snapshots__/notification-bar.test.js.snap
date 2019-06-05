@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotificationBar should be closable 1`] = `
+<DocumentFragment>
+  .emotion-3 {
+  background-color: #783CEE;
+  text-align: center;
+  position: relative;
+}
+
+.emotion-1 {
+  background: none;
+  color: white;
+  cursor: pointer;
+  border: none;
+  font-size: 1rem;
+  padding: .75rem 0;
+  width: 100%;
+  outline: none;
+}
+
+.emotion-0 {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  font-style: normal;
+}
+
+.emotion-2 {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  font-size: 1rem;
+  outline: none;
+  position: absolute;
+  right: 1em;
+  top: 0;
+  bottom: 0;
+  padding: 0 1em;
+}
+
+<div
+    class="emotion-3"
+  >
+    <button
+      aria-label="Give your authorization to receive notifications on your computer"
+      class="emotion-1"
+      type="button"
+    >
+      Give 
+      <em
+        class="emotion-0"
+      >
+        your authorization
+      </em>
+       to receive notifications on your computer
+    </button>
+    <button
+      aria-label="Close notification bar"
+      class="emotion-2"
+      type="button"
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="0"
+        viewBox="0 0 352 512"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+        />
+      </svg>
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`NotificationBar should be closable 2`] = `<DocumentFragment />`;
