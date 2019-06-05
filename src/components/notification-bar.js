@@ -15,9 +15,9 @@ function NotificationBar() {
     setIsVisible(false);
   }
 
-  async function handleMainClick() {
-    const result = await Notification.requestPermission();
-    setPermissions(result);
+  function handleMainClick() {
+    Notification.requestPermission()
+      .then(setPermissions);
   }
 
   return (
