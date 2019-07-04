@@ -6,6 +6,7 @@ import CreateChannel from "./create-channel";
 test("CreateChannel", async () => {
   const onCreate = jest.fn();
   const channels = ["general", "testing"];
+
   const { getByLabelText } = render(
     <CreateChannel channels={channels} onCreate={onCreate} />
   );
